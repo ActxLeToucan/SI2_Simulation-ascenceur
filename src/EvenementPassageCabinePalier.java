@@ -17,11 +17,11 @@ public class EvenementPassageCabinePalier extends Evenement {
     }
     
     public void traiter(Immeuble immeuble, Echeancier echeancier) {
-    	Cabine cabine = immeuble.cabine;
-    	assert ! cabine.porteOuverte;
-    	assert etage.numero() != cabine.etage.numero();
+		Cabine c = immeuble.cabine;
+		assert !c.porteOuverte;
+		assert etage.numero() != c.etage.numero();
 
-    	notYetImplemented();
-
-    }
+		c.etage = immeuble.etage(etage.numero());
+		echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.etage.numero()+1)));
+	}
 }

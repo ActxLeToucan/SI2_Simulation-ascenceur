@@ -22,6 +22,8 @@ public class EvenementFermeturePorteCabine extends Evenement {
 		//notYetImplemented();
 
 		assert (! cabine.porteOuverte) : "postcondition";
+
+        echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(cabine.etage.numero()+1)));
     }
 
 
