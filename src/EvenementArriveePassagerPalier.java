@@ -38,10 +38,11 @@ public class EvenementArriveePassagerPalier extends Evenement {
 				notYetImplemented();
 		    }
 		} else {
-		    notYetImplemented();
+			if (c.porteOuverte) echeancier.ajouter(new EvenementFermeturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			c.changerIntention(etage.numero() < c.etage.numero() ? 'v' : '^');
+			// TODO aled, pourquoi il monte avant de descendre ?!!
 		}
 	
 		assert c.intention() != '-' : "intention impossible";
     }
-
 }

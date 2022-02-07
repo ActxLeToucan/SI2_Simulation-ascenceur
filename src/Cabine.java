@@ -112,4 +112,14 @@ public class Cabine extends Global {
 		return false;
     }
 
+	public boolean contientDesPassagers() {
+		boolean vide = true;
+		for (Passager p : tableauPassager) {
+			if (p != null) {
+				vide = false;
+				break;
+			}
+		}
+		return vide;
+	}
 }

@@ -22,6 +22,10 @@ public class EvenementPassageCabinePalier extends Evenement {
 		assert etage.numero() != c.etage.numero();
 
 		c.etage = immeuble.etage(etage.numero());
-		echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.etage.numero()+1)));
+		if (c.passagersVeulentDescendre()) {
+			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+		} else {
+			echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
+		}
 	}
 }
