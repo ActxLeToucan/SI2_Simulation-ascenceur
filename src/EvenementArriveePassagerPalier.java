@@ -40,7 +40,7 @@ public class EvenementArriveePassagerPalier extends Evenement {
 		} else {
 			if (c.porteOuverte) echeancier.ajouter(new EvenementFermeturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
 			c.changerIntention(etage.numero() < c.etage.numero() ? 'v' : '^');
-			// TODO aled, pourquoi il monte avant de descendre ?!!
+			immeuble.etage(etage.numero()).ajouter(p);
 		}
 	
 		assert c.intention() != '-' : "intention impossible";

@@ -20,6 +20,14 @@ public class EvenementOuverturePorteCabine extends Evenement {
 		cabine.faireDescendrePassagers(immeuble, date);
 
 		cabine.changerIntention('-');
+
+		for (int i = 0; i<etage.getPassagers().size(); i++) {
+			cabine.faireMonterPassager(etage.getPassagers().get(i));
+		}
+		etage.getPassagers().clear();
+
+		// TODO fermer les portes :)
+		//cabine.changerIntention(cabine.calculerIntention());
 	
     	assert cabine.porteOuverte;
     }

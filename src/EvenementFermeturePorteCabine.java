@@ -23,7 +23,7 @@ public class EvenementFermeturePorteCabine extends Evenement {
 
 		assert (! cabine.porteOuverte) : "postcondition";
 
-        echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(cabine.etage.numero()+1)));
+        echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(cabine.intention() == '^' ? cabine.etage.numero()+1 : cabine.etage.numero()-1)));
     }
 
 

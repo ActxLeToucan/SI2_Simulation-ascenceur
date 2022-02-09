@@ -122,4 +122,18 @@ public class Cabine extends Global {
 		}
 		return vide;
 	}
+
+	public int nbPassagers() {
+		return this.tableauPassager.length;
+	}
+
+	public char calculerIntention() {
+		if (intention() != '-') {
+			return intention();
+		} else if (this.contientDesPassagers()) {
+			return etage.numero() < this.etage.numero() ? 'v' : '^';
+		} else {
+			return '-';
+		}
+	}
 }
