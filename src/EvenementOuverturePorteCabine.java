@@ -19,15 +19,20 @@ public class EvenementOuverturePorteCabine extends Evenement {
     	cabine.porteOuverte = true;
 		cabine.faireDescendrePassagers(immeuble, date);
 
-		cabine.changerIntention('-');
+		//cabine.changerIntention('-');
 
 		for (int i = 0; i<etage.getPassagers().size(); i++) {
 			cabine.faireMonterPassager(etage.getPassagers().get(i));
 		}
+		for (Passager p : etage.getPassagers()) {
+			echeancier.supprimerPAP(p, cabine);
+		}
 		etage.getPassagers().clear();
 
-		// TODO fermer les portes :)
-		//cabine.changerIntention(cabine.calculerIntention());
+		if (cabine.contientDesPassagers()) {
+			echeancier.ajouter(new EvenementFermeturePorteCabine(date+tempsPourOuvrirOuFermerLesPortes + cabine.nbPassagers()*tempsPourEntrerOuSortirDeLaCabine));
+		}
+		cabine.changerIntention(cabine.calculerIntention());
 	
     	assert cabine.porteOuverte;
     }

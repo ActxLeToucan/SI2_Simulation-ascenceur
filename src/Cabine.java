@@ -120,11 +120,15 @@ public class Cabine extends Global {
 				break;
 			}
 		}
-		return vide;
+		return !vide;
 	}
 
 	public int nbPassagers() {
-		return this.tableauPassager.length;
+		int i = 0;
+		for (Passager p : this.tableauPassager) {
+			if (p != null) i++;
+		}
+		return i;
 	}
 
 	public char calculerIntention() {

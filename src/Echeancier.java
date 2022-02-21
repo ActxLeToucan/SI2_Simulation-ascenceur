@@ -81,4 +81,16 @@ public class Echeancier extends Global {
 		}	
     }
 
+
+	public void supprimerPAP(Passager passager, Cabine cabine){
+		int index = 0;
+		while ( true ) {
+			Evenement e = listeEvenements.get(index);
+			if(e instanceof EvenementPietonArrivePalier && cabine.transporte(passager)){
+				listeEvenements.remove(e);
+				return;
+			}
+			index++;
+		}
+	}
 }

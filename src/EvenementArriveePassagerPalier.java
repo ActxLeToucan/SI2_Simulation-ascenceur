@@ -33,15 +33,18 @@ public class EvenementArriveePassagerPalier extends Evenement {
 				} else {
 					assert false : "else impossible";
 				}
-				echeancier.ajouter(new EvenementArriveePassagerPalier(date + etage.arriveeSuivante(), etage));
 		    } else {
 				notYetImplemented();
 		    }
 		} else {
 			if (c.porteOuverte) echeancier.ajouter(new EvenementFermeturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			echeancier.ajouter(new EvenementPietonArrivePalier(date + delaiDePatienceAvantSportif, p.etageDepart(), p));
 			c.changerIntention(etage.numero() < c.etage.numero() ? 'v' : '^');
 			immeuble.etage(etage.numero()).ajouter(p);
 		}
+
+		date += etage.arriveeSuivante();
+		echeancier.ajouter(this);
 	
 		assert c.intention() != '-' : "intention impossible";
     }
