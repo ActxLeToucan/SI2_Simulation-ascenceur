@@ -17,22 +17,25 @@ public class EvenementOuverturePorteCabine extends Evenement {
     	assert ! cabine.porteOuverte;
 	
     	cabine.porteOuverte = true;
-		cabine.faireDescendrePassagers(immeuble, date);
+		int passagersDescendus = cabine.faireDescendrePassagers(immeuble, date);
 
-		//cabine.changerIntention('-');
-
-		for (int i = 0; i<etage.getPassagers().size(); i++) {
-			cabine.faireMonterPassager(etage.getPassagers().get(i));
-		}
-		for (Passager p : etage.getPassagers()) {
-			echeancier.supprimerPAP(p, cabine);
-		}
-		etage.getPassagers().clear();
-
-		if (cabine.contientDesPassagers()) {
-			echeancier.ajouter(new EvenementFermeturePorteCabine(date+tempsPourOuvrirOuFermerLesPortes + cabine.nbPassagers()*tempsPourEntrerOuSortirDeLaCabine));
-		}
 		cabine.changerIntention(cabine.calculerIntention());
+
+		int i = 0;
+		int passagersQuiSontMontes = 0;
+		while (!etage.getPassagers().isEmpty() && i<etage.getPassagers().size()) {
+			Passager p = etage.getPassagers().get(i);
+			if (cabine.faireMonterPassager(p) == 'O') {
+				passagersQuiSontMontes++;
+				echeancier.supprimerPAP(p, cabine);
+			} else {
+				i++;
+			}
+		}
+
+		if (cabine.contientDesPassagers() || etage.getImmeuble().passagerEnDessous(etage) || etage.getImmeuble().passagerAuDessus(etage)) {
+			echeancier.ajouter(new EvenementFermeturePorteCabine(date+tempsPourOuvrirOuFermerLesPortes + (passagersDescendus + passagersQuiSontMontes)*tempsPourEntrerOuSortirDeLaCabine));
+		}
 	
     	assert cabine.porteOuverte;
     }

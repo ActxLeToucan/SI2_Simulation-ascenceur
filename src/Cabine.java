@@ -72,6 +72,7 @@ public class Cabine extends Global {
 		for (int i=0 ; i<tableauPassager.length ; i++) {
 		    if(tableauPassager[i]==null){
 		    	tableauPassager[i]=p;
+				etage.getPassagers().remove(tableauPassager[i]);
 		    	return 'O'; // comme Ok
 		    }
 		}
@@ -132,10 +133,26 @@ public class Cabine extends Global {
 	}
 
 	public char calculerIntention() {
-		if (intention() != '-') {
-			return intention();
-		} else if (this.contientDesPassagers()) {
-			return etage.numero() < this.etage.numero() ? 'v' : '^';
+		if (this.contientDesPassagers()) {
+			/*
+			Passager pPrio = this.tableauPassager[0];
+			int min = Math.abs(pPrio.etageDepart().numero()) - pPrio.etageDestination().numero();
+			for (Passager p : this.tableauPassager) {
+				int diff = Math.abs(p.etageDepart().numero() - p.etageDestination().numero());
+				if (diff < min) {
+					min = diff;
+					pPrio = p;
+				}
+			}
+			return pPrio.etageDestination().numero() < this.etage.numero() ? 'v' : '^';
+			 */
+			return this.tableauPassager[0].etageDestination().numero() < this.etage.numero() ? 'v' : '^';
+		} else if (!this.etage.getPassagers().isEmpty()) {
+			return this.etage.getPassagers().get(0).sens();
+		} else if (this.etage.getImmeuble().passagerAuDessus(this.etage)) {
+			return '^';
+		} else if (this.etage.getImmeuble().passagerEnDessous(this.etage)) {
+			return 'v';
 		} else {
 			return '-';
 		}

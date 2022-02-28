@@ -1,0 +1,1855 @@
+Mode de simulation ? (p) parfait ? (i) infernal ? parfait par défaut ?
+----- Etat actuel du simulateur (nombre total de pas = 0, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] :                                                                      | 
+ 4    [] :                                                                      | 
+ 3    [] :                                                                      | 
+ 2    [] :                                                                      | 
+ 1    [] :                                                                      | 
+ 0 C [  ]:                                                                      | 
+-1    [] :                                                                      | 
+Contenu de la cabine: null null null null 
+Intention de la cabine: -
+Cumul des temps de transport: 0
+Nombre total des passagers sortis: 0
+Ratio cumul temps / nb passagers : 0
+Echéancier = [39,APP 0],[273,APP 4],[273,APP 2],[313,APP 5],[318,APP -1],[321,APP 1],[326,APP 6],[333,APP 3],[353,APP 7]
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 100, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333                                                          | 
+ 2    [] : #25:2v0:609                                                          | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #19:0^7:443 #15:0^2:345 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2295
+Nombre total des passagers sortis: 13
+Ratio cumul temps / nb passagers : 176
+Echéancier = [638,APP -1],[642,PCP 2],[654,APP 3],[660,APP 6],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[971,APP 5],[976,APP 1],[1128,PAP 0 #21], ... (21)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 101, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333                                                          | 
+ 2    [] : #25:2v0:609                                                          | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #15:0^2:345 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2295
+Nombre total des passagers sortis: 13
+Ratio cumul temps / nb passagers : 176
+Echéancier = [642,PCP 2],[654,APP 3],[660,APP 6],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[971,APP -1],[971,APP 5],[976,APP 1],[1128,PAP 0 #21], ... (22)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 102, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333                                                          | 
+ 2 C  [] : #25:2v0:609                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #15:0^2:345 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2295
+Nombre total des passagers sortis: 13
+Ratio cumul temps / nb passagers : 176
+Echéancier = [647,OPC],[654,APP 3],[660,APP 6],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[971,APP -1],[971,APP 5],[976,APP 1],[1128,PAP 0 #21], ... (22)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 103, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333                                                          | 
+ 2 C [  ]:                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [654,APP 3],[660,FPC],[660,APP 6],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[971,APP -1],[971,APP 5],[976,APP 1],[1128,PAP 0 #21], ... (21)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 104, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2 C [  ]:                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [660,FPC],[660,APP 6],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[976,APP 1],[1128,PAP 0 #21], ... (22)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 105, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] :                                                                      | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2 C  [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [660,APP 6],[668,PCP 3],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[976,APP 1],[1128,PAP 0 #21], ... (22)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 106, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2 C  [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [668,PCP 3],[671,APP 7],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[1128,PAP 0 #21], ... (23)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 107, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [671,APP 7],[673,OPC],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[1128,PAP 0 #21], ... (23)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 108, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [673,OPC],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 109, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3 C [  ]: #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [678,FPC],[682,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 110, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633                      | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [682,APP 0],[686,PCP 4],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 111, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [686,PCP 4],[724,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 112, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C  [] : #7:4v0:273 #23:4v0:600                                               | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #17:0^4:380 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2597
+Nombre total des passagers sortis: 14
+Ratio cumul temps / nb passagers : 185
+Echéancier = [691,OPC],[724,APP 0],[873,PAP 4 #7],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 113, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C [  ]: #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [704,FPC],[724,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 114, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C  [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [712,PCP 5],[724,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 115, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C  [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [717,OPC],[724,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 116, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C [  ]: #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [722,FPC],[724,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 117, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C  [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(5)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [724,APP 0],[730,PCP 6],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 118, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C  [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [730,PCP 6],[769,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 119, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6 C  [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [735,OPC],[769,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 120, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6 C [  ]: #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [740,FPC],[769,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 121, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #32:7v0:671                                                          | 
+ 6 C  [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [748,PCP 7],[769,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 122, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C  [] : #32:7v0:671                                                          | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #19:0^7:443 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: ^
+Cumul des temps de transport: 2908
+Nombre total des passagers sortis: 15
+Ratio cumul temps / nb passagers : 193
+Echéancier = [753,OPC],[769,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 123, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C [  ]:                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [766,FPC],[769,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 124, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C  [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [769,APP 0],[774,PCP 6],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 125, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C  [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [774,PCP 6],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 126, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6 C  [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [779,OPC],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 127, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6 C [  ]: #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [784,FPC],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 128, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6 C  [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [792,PCP 5],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 129, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C  [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [797,OPC],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 130, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C [  ]: #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [802,FPC],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 131, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5 C  [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [810,PCP 4],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 132, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C  [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [815,OPC],[818,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 133, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C [  ]: #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [818,APP 0],[820,FPC],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 134, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C [  ]: #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [820,FPC],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 135, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4 C  [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [828,PCP 3],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 136, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [833,OPC],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 137, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3 C [  ]: #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [838,FPC],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 138, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [846,PCP 2],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 139, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2 C  [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [854,PCP 1],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 140, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [859,OPC],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 141, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1 C [  ]: #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [864,FPC],[864,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 142, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(8)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [864,APP 0],[872,PCP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 143, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(9)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [872,PCP 0],[892,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21], ... (27)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 144, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C  [] : #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 ...(9)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #32:7v0:671 #25:2v0:609 #7:4v0:273 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 3218
+Nombre total des passagers sortis: 16
+Ratio cumul temps / nb passagers : 201
+Echéancier = [877,OPC],[892,APP 0],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1128,PAP 0 #21],[1163,PAP 0 #22], ... (27)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 145, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C [  ]: #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(6)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 4296
+Nombre total des passagers sortis: 19
+Ratio cumul temps / nb passagers : 226
+Echéancier = [892,APP 0],[906,FPC],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 146, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C [  ]: #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 4296
+Nombre total des passagers sortis: 19
+Ratio cumul temps / nb passagers : 226
+Echéancier = [906,FPC],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 147, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C  [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1    [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 4296
+Nombre total des passagers sortis: 19
+Ratio cumul temps / nb passagers : 226
+Echéancier = [914,PCP -1],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 148, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1 C  [] : #29:-1^0:638                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #20:0v-1:475 
+Intention de la cabine: v
+Cumul des temps de transport: 4296
+Nombre total des passagers sortis: 19
+Ratio cumul temps / nb passagers : 226
+Echéancier = [919,OPC],[921,PAP 1 #12],[926,APP 4],[933,PAP 3 #14],[940,APP 2],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 149, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1 C [  ]:                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [921,PAP 1 #12],[926,APP 4],[932,FPC],[933,PAP 3 #14],[940,APP 2],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 150, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600                                                          | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | #12:1v0:321 
+ 0    [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1 C [  ]:                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [926,APP 4],[932,FPC],[933,PAP 3 #14],[940,APP 2],[941,PAP 0 #12],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (24)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 151, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | #12:1v0:321 
+ 0    [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1 C [  ]:                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [932,FPC],[933,PAP 3 #14],[940,APP 2],[941,PAP 0 #12],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 152, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | #12:1v0:321 
+ 0    [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1 C  [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [933,PAP 3 #14],[940,PCP 0],[940,APP 2],[941,PAP 0 #12],[942,APP 0],[948,APP 3],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 153, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | #14:3v0:333 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | #12:1v0:321 
+ 0    [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1 C  [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [940,PCP 0],[940,APP 2],[941,PAP 0 #12],[942,APP 0],[948,APP 3],[953,PAP 2 #14],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 154, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | #14:3v0:333 
+ 2    [] :                                                                      | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | #12:1v0:321 
+ 0 C  [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [940,APP 2],[941,PAP 0 #12],[942,APP 0],[945,OPC],[948,APP 3],[953,PAP 2 #14],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 155, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | #14:3v0:333 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | #12:1v0:321 
+ 0 C  [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [941,PAP 0 #12],[942,APP 0],[945,OPC],[948,APP 3],[953,PAP 2 #14],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 156, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | #14:3v0:333 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C  [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [942,APP 0],[945,OPC],[948,APP 3],[953,PAP 2 #14],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1233,PAP 0 #28], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 157, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | #14:3v0:333 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C  [] : #28:0^3:633 #33:0^6:682 #34:0^6:724 #35:0^2:769 ...(8)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #29:-1^0:638 
+Intention de la cabine: ^
+Cumul des temps de transport: 4740
+Nombre total des passagers sortis: 20
+Ratio cumul temps / nb passagers : 237
+Echéancier = [945,OPC],[948,APP 3],[953,PAP 2 #14],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1233,PAP 0 #28], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 158, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654                                              | #14:3v0:333 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C [  ]: #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [948,APP 3],[953,PAP 2 #14],[958,FPC],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4], ... (25)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 159, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | #14:3v0:333 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C [  ]: #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [953,PAP 2 #14],[958,FPC],[971,APP -1],[971,APP 5],[972,APP 6],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 160, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C [  ]: #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [958,FPC],[971,APP -1],[971,APP 5],[972,APP 6],[973,PAP 1 #14],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 161, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1    [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0 C  [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [966,PCP 1],[971,APP -1],[971,APP 5],[972,APP 6],[973,PAP 1 #14],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 162, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [971,OPC],[971,APP -1],[971,APP 5],[972,APP 6],[973,PAP 1 #14],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 163, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1 C [  ]: #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] :                                                                      | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [971,APP -1],[971,APP 5],[972,APP 6],[973,PAP 1 #14],[976,FPC],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2], ... (26)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 164, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620                                                          | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1 C [  ]: #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [971,APP 5],[972,APP 6],[973,PAP 1 #14],[976,FPC],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30], ... (27)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 165, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660                                                          | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1 C [  ]: #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [972,APP 6],[973,PAP 1 #14],[976,FPC],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31], ... (28)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 166, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | #14:3v0:333 
+ 1 C [  ]: #12:1v0:321 #27:1v0:627                                              | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [973,PAP 1 #14],[976,FPC],[976,APP 1],[978,APP 0],[988,APP 7],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31], ... (29)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 167, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1 C [  ]: #12:1v0:321 #27:1v0:627                                              | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [976,FPC],[976,APP 1],[978,APP 0],[988,APP 7],[993,PAP 0 #14],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31], ... (29)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 168, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627                                              | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [976,APP 1],[978,APP 0],[984,PCP 2],[988,APP 7],[993,PAP 0 #14],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31], ... (29)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 169, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(7)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [978,APP 0],[984,PCP 2],[988,APP 7],[993,PAP 0 #14],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3], ... (30)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 170, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1 C  [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [984,PCP 2],[988,APP 7],[993,PAP 0 #14],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 171, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] :                                                                      | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2 C  [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [988,APP 7],[989,OPC],[993,PAP 0 #14],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 172, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2 C  [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [989,OPC],[993,PAP 0 #14],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 173, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2 C [  ]: #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | #14:3v0:333 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [993,PAP 0 #14],[994,FPC],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 174, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2 C [  ]: #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [994,FPC],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 175, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2 C  [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [1002,PCP 3],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 176, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3 C  [] : #14:3v0:333 #30:3v0:654 #42:3v0:948                                  | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #28:0^3:633 
+Intention de la cabine: ^
+Cumul des temps de transport: 5047
+Nombre total des passagers sortis: 21
+Ratio cumul temps / nb passagers : 240
+Echéancier = [1007,OPC],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 177, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3 C [  ]: #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5421
+Nombre total des passagers sortis: 22
+Ratio cumul temps / nb passagers : 246
+Echéancier = [1020,FPC],[1022,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 178, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3 C  [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(8)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5421
+Nombre total des passagers sortis: 22
+Ratio cumul temps / nb passagers : 246
+Echéancier = [1022,APP 0],[1028,PCP 4],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 179, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3 C  [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(9)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5421
+Nombre total des passagers sortis: 22
+Ratio cumul temps / nb passagers : 246
+Echéancier = [1028,PCP 4],[1059,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 180, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4 C  [] : #23:4v0:600 #39:4v0:926                                              | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(9)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #21:0^4:528 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5421
+Nombre total des passagers sortis: 22
+Ratio cumul temps / nb passagers : 246
+Echéancier = [1033,OPC],[1059,APP 0],[1200,PAP 4 #23],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 181, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4 C [  ]: #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(9)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5926
+Nombre total des passagers sortis: 23
+Ratio cumul temps / nb passagers : 257
+Echéancier = [1046,FPC],[1059,APP 0],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 182, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4 C  [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(9)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5926
+Nombre total des passagers sortis: 23
+Ratio cumul temps / nb passagers : 257
+Echéancier = [1054,PCP 5],[1059,APP 0],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 183, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5 C  [] : #26:5v0:620 #44:5v0:971                                              | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(9)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #22:0^5:563 #24:0^5:606 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 5926
+Nombre total des passagers sortis: 23
+Ratio cumul temps / nb passagers : 257
+Echéancier = [1059,OPC],[1059,APP 0],[1220,PAP 5 #26],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 184, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5 C [  ]:                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(9)               | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1059,APP 0],[1080,FPC],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (29)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 185, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5 C [  ]:                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(10)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1080,FPC],[1101,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (30)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 186, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5 C  [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(10)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1088,PCP 6],[1101,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (30)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 187, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C  [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(10)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1093,OPC],[1101,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (30)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 188, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C [  ]: #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(10)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1098,FPC],[1101,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (30)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 189, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C  [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(10)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1101,APP 0],[1106,PCP 7],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (30)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 190, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C  [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1106,PCP 7],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 191, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C  [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: ^
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1111,OPC],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 192, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C [  ]: #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1116,FPC],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 193, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7 C  [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1124,PCP 6],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 194, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C  [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1129,OPC],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 195, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C [  ]: #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1134,FPC],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 196, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6 C  [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1142,PCP 5],[1145,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 197, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5 C  [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(11)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1145,APP 0],[1150,PCP 4],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (31)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 198, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5 C  [] :                                                                      | 
+ 4    [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(12)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1150,PCP 4],[1179,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 199, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4 C  [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(12)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1155,OPC],[1179,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 200, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4 C [  ]: #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(12)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1160,FPC],[1179,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:
+----- Etat actuel du simulateur (nombre total de pas = 201, assert on) -----
+Ascenseur en mode infernal                                                      | Escalier pour sportifs
+ 7    [] : #48:7v0:988                                                          | 
+ 6    [] : #31:6v0:660 #45:6v0:972                                              | 
+ 5    [] :                                                                      | 
+ 4 C  [] : #39:4v0:926                                                          | 
+ 3    [] : #30:3v0:654 #42:3v0:948                                              | 
+ 2    [] : #40:2v0:940                                                          | 
+ 1    [] : #12:1v0:321 #27:1v0:627 #46:1v0:976                                  | 
+ 0    [] : #33:0^6:682 #34:0^6:724 #35:0^2:769 #36:0^4:818 ...(12)              | 
+-1    [] : #43:-1^0:971                                                         | 
+Contenu de la cabine: #23:4v0:600 #26:5v0:620 #44:5v0:971 #14:3v0:333 
+Intention de la cabine: v
+Cumul des temps de transport: 6875
+Nombre total des passagers sortis: 25
+Ratio cumul temps / nb passagers : 275
+Echéancier = [1168,PCP 3],[1179,APP 0],[1227,PAP 1 #27],[1234,APP 4],[1251,APP 2],[1254,PAP 3 #30],[1260,PAP 6 #31],[1273,APP 3],[1282,PAP 0 #33],[1289,APP 6],[1292,APP -1],[1308,APP 5], ... (32)
+Taper "Enter", ou le nombre de pas, ou q pour quitter:

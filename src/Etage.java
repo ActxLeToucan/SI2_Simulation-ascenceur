@@ -121,4 +121,8 @@ public class Etage extends Global {
 	public ArrayList<Passager> getPassagers() {
 		return passagers;
 	}
+
+	public Immeuble getImmeuble() {
+		return this.immeuble;
+	}
 }
