@@ -134,21 +134,18 @@ public class Cabine extends Global {
 
 	public char calculerIntention() {
 		if (this.contientDesPassagers()) {
-			/*
-			Passager pPrio = this.tableauPassager[0];
-			int min = Math.abs(pPrio.etageDepart().numero()) - pPrio.etageDestination().numero();
-			for (Passager p : this.tableauPassager) {
-				int diff = Math.abs(p.etageDepart().numero() - p.etageDestination().numero());
+			return this.tableauPassager[0].etageDestination().numero() < this.etage.numero() ? 'v' : '^';
+		} else if (!this.etage.getPassagers().isEmpty()) {
+			Passager pPrio = this.etage.getPassagers().get(0);
+			int min = pPrio.etageDestination().numero() - this.etage.numero();
+			for (Passager p : this.etage.getPassagers()) {
+				int diff = p.etageDestination().numero() - this.etage.numero();
 				if (diff < min) {
 					min = diff;
 					pPrio = p;
 				}
 			}
 			return pPrio.etageDestination().numero() < this.etage.numero() ? 'v' : '^';
-			 */
-			return this.tableauPassager[0].etageDestination().numero() < this.etage.numero() ? 'v' : '^';
-		} else if (!this.etage.getPassagers().isEmpty()) {
-			return this.etage.getPassagers().get(0).sens();
 		} else if (this.etage.getImmeuble().passagerAuDessus(this.etage)) {
 			return '^';
 		} else if (this.etage.getImmeuble().passagerEnDessous(this.etage)) {
