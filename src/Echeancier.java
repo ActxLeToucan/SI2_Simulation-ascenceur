@@ -86,7 +86,7 @@ public class Echeancier extends Global {
 		int index = 0;
 		while ( index < listeEvenements.size() ) {
 			Evenement e = listeEvenements.get(index);
-			if(e instanceof EvenementPietonArrivePalier && cabine.transporte(passager)){
+			if(e instanceof EvenementPietonArrivePalier && cabine.transporte(passager) && passager.numeroDeCreation == ((EvenementPietonArrivePalier)e).getPassager().numeroDeCreation){
 				listeEvenements.remove(e);
 				return;
 			}

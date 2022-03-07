@@ -23,5 +23,8 @@ public class EvenementPietonArrivePalier extends Evenement {
 		etage = edd;
 		passager = pa;
     }
-    
+
+    public Passager getPassager() {
+        return passager;
+    }
 }
