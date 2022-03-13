@@ -134,7 +134,7 @@ public class Cabine extends Global {
 
 	public char calculerIntention() {
 		if (this.contientDesPassagers()) {
-			return this.tableauPassager[0].etageDestination().numero() < this.etage.numero() ? 'v' : '^';
+			return getFirstPassager().etageDestination().numero() < this.etage.numero() ? 'v' : '^';
 		} else if (!this.etage.getPassagers().isEmpty()) {
 			Passager pPrio = this.etage.getPassagers().get(0);
 			int min = pPrio.etageDestination().numero() - this.etage.numero();
@@ -153,5 +153,12 @@ public class Cabine extends Global {
 		} else {
 			return '-';
 		}
+	}
+
+	public Passager getFirstPassager() {
+		for (Passager p : this.tableauPassager) {
+			if (p != null) return p;
+		}
+		return null;
 	}
 }

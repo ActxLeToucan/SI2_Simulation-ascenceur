@@ -15,7 +15,13 @@ public class EvenementPietonArrivePalier extends Evenement {
     
     
     public void traiter(Immeuble immeuble, Echeancier echeancier) {
-    	notYetImplemented();
+        if (this.etage == passager.etageDepart()) passager.etageDepart().getPassagers().remove(passager);
+        else immeuble.etage(passager.sens() == 'v' ? etage.numero()+1 : etage.numero()-1).getPietons().remove(passager);
+
+        if (etage == passager.etageDestination()) return;
+        etage.ajouterPieton(passager);
+        Etage nextEtage = this.etage.getImmeuble().etage(passager.sens() == '^' ? etage.numero()+1 : etage.numero()-1);
+        echeancier.ajouter(new EvenementPietonArrivePalier(date + tempsPourMonterOuDescendreUnEtageAPieds, nextEtage, passager));
     }
 
     public EvenementPietonArrivePalier(long d, Etage edd, Passager pa) {

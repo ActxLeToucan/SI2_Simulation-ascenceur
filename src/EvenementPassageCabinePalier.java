@@ -25,7 +25,22 @@ public class EvenementPassageCabinePalier extends Evenement {
 		if (c.passagersVeulentDescendre()) {
 			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
 		} else if (etage.aDesPassagers()) {
-			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			if (c.contientDesPassagers() && modeParfait) {
+				boolean jeDoisOuvrir = false;
+				for (Passager pass : etage.getPassagers()) {
+					if (pass.sens() == c.intention()) {
+						jeDoisOuvrir = true;
+						break;
+					}
+				}
+				if (jeDoisOuvrir) {
+					echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+				} else {
+					echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
+				}
+			} else {
+				echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			}
 		} else {
 			echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
 		}

@@ -125,4 +125,12 @@ public class Etage extends Global {
 	public Immeuble getImmeuble() {
 		return this.immeuble;
 	}
+
+	public void ajouterPieton(Passager p) {
+		this.pietons.add(p);
+	}
+
+	public ArrayList<Passager> getPietons() {
+		return pietons;
+	}
 }
