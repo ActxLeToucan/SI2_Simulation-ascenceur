@@ -19,7 +19,7 @@ public class EvenementOuverturePorteCabine extends Evenement {
     	cabine.porteOuverte = true;
 		int passagersDescendus = cabine.faireDescendrePassagers(immeuble, date);
 
-		cabine.changerIntention(cabine.calculerIntention());
+		cabine.changerIntention(cabine.calculerIntention(immeuble));
 
 		int i = 0;
 		int passagersQuiSontMontes = 0;
