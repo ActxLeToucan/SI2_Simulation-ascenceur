@@ -139,6 +139,8 @@ public class Cabine extends Global {
 			}
 			return getFirstPassager().etageDestination().numero() < this.etage.numero() ? 'v' : '^';
 		} else if (!this.etage.getPassagers().isEmpty()) {
+			if (this.intention == 'v' && immeuble.passagerEnDessous(this.etage)) return 'v';
+			else if (this.intention == '^' && immeuble.passagerAuDessus(this.etage)) return '^';
 			Passager pPrio = this.etage.getPassagers().get(0);
 			int min = pPrio.etageDestination().numero() - this.etage.numero();
 			for (Passager p : this.etage.getPassagers()) {
