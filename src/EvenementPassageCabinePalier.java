@@ -44,7 +44,7 @@ public class EvenementPassageCabinePalier extends Evenement {
 
 		c.etage = immeuble.etage(etage.numero());
 		if (c.passagersVeulentDescendre()) {
-			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			echeancier.ajouter(EvenementOuverturePorteCabine.setEvent(date + tempsPourOuvrirOuFermerLesPortes));
 		} else if (etage.aDesPassagers()) {
 			if (c.contientDesPassagers() && modeParfait) {
 				modeParfait_ouvertureOuMouvementCabine(immeuble, echeancier, c);
@@ -52,7 +52,7 @@ public class EvenementPassageCabinePalier extends Evenement {
 				if (modeParfait && (immeuble.passagerEnDessous(etage) || immeuble.passagerAuDessus(etage))) {
 					modeParfait_ouvertureOuMouvementCabine(immeuble, echeancier, c);
 				} else {
-					echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+					echeancier.ajouter(EvenementOuverturePorteCabine.setEvent(date + tempsPourOuvrirOuFermerLesPortes));
 				}
 			}
 		} else {
@@ -71,7 +71,7 @@ public class EvenementPassageCabinePalier extends Evenement {
 		if (!jeDoisOuvrir && etage != immeuble.etageLePlusBas() && etage != immeuble.etageLePlusHaut()) {
 			echeancier.ajouter(EvenementPassageCabinePalier.setEvent(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
 		} else {
-			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			echeancier.ajouter(EvenementOuverturePorteCabine.setEvent(date + tempsPourOuvrirOuFermerLesPortes));
 		}
 	}
 }

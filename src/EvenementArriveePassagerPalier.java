@@ -25,7 +25,7 @@ public class EvenementArriveePassagerPalier extends Evenement {
 		if (c.porteOuverte && c.etage == etage) {
 		    if (c.intention() == '-') {
 				c.changerIntention(p.sens());
-				echeancier.ajouter(new EvenementFermeturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+				echeancier.ajouter(EvenementFermeturePorteCabine.setEvent(date + tempsPourOuvrirOuFermerLesPortes));
 				char fmp = c.faireMonterPassager(p);
 				// Il faudrait aussi ajouter le premier PCP...
 				if (fmp == 'O') {
@@ -40,7 +40,7 @@ public class EvenementArriveePassagerPalier extends Evenement {
 				}
 		    }
 		} else {
-			if (c.porteOuverte && !c.contientDesPassagers() && !(echeancier.getNextEvent() instanceof EvenementFermeturePorteCabine)) echeancier.ajouter(new EvenementFermeturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+			if (c.porteOuverte && !c.contientDesPassagers() && !(echeancier.getNextEvent() instanceof EvenementFermeturePorteCabine)) echeancier.ajouter(EvenementFermeturePorteCabine.setEvent(date + tempsPourOuvrirOuFermerLesPortes));
 			echeancier.ajouter(new EvenementPietonArrivePalier(date + delaiDePatienceAvantSportif, p.etageDepart(), p));
 			immeuble.etage(etage.numero()).ajouter(p);
 			if (!c.contientDesPassagers()) c.changerIntention(c.calculerIntention(immeuble));

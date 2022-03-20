@@ -2,8 +2,29 @@ public class EvenementOuverturePorteCabine extends Evenement {
     /* OPC: Ouverture Porte Cabine
        L'instant précis ou la porte termine de s'ouvrir.
     */
-    
-    public EvenementOuverturePorteCabine(long d) {
+
+	/**
+	 * singleton
+	 */
+	private static EvenementOuverturePorteCabine event;
+
+	public static EvenementOuverturePorteCabine setEvent(long d) {
+		if (event == null) {
+			event = new EvenementOuverturePorteCabine(d);
+		} else {
+			event.recycle(d);
+		}
+		return event;
+	}
+
+	private void recycle(long d) {
+		this.date = d;
+	}
+
+
+
+
+	private EvenementOuverturePorteCabine(long d) {
     	super(d);
     }
     
@@ -34,7 +55,7 @@ public class EvenementOuverturePorteCabine extends Evenement {
 		}
 
 		if (cabine.contientDesPassagers() || etage.getImmeuble().passagerEnDessous(etage) || etage.getImmeuble().passagerAuDessus(etage)) {
-			echeancier.ajouter(new EvenementFermeturePorteCabine(date+tempsPourOuvrirOuFermerLesPortes + (passagersDescendus + passagersQuiSontMontes)*tempsPourEntrerOuSortirDeLaCabine));
+			echeancier.ajouter(EvenementFermeturePorteCabine.setEvent(date+tempsPourOuvrirOuFermerLesPortes + (passagersDescendus + passagersQuiSontMontes)*tempsPourEntrerOuSortirDeLaCabine));
 		}
 	
     	assert cabine.porteOuverte;

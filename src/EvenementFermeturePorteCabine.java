@@ -6,7 +6,27 @@ public class EvenementFermeturePorteCabine extends Evenement {
        selon la méthode decaler FPC qui est dans l'échéancier.
     */
 
-    public EvenementFermeturePorteCabine(long d) {
+    /**
+     * singleton
+     */
+    private static EvenementFermeturePorteCabine event;
+
+    public static EvenementFermeturePorteCabine setEvent(long d) {
+        if (event == null) {
+            event = new EvenementFermeturePorteCabine(d);
+        } else {
+            event.recycle(d);
+        }
+        return event;
+    }
+
+    private void recycle(long d) {
+        this.date = d;
+    }
+
+
+
+    private EvenementFermeturePorteCabine(long d) {
     	super(d);
     }
 
