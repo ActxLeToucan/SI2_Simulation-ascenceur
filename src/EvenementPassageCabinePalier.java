@@ -3,10 +3,31 @@ public class EvenementPassageCabinePalier extends Evenement {
        L'instant précis où la cabine passe juste en face d'un étage précis.
        Vous pouvez modifier cette classe comme vous voulez (ajouter/modifier des méthodes etc.).
     */
+
+	/**
+	 * singleton
+	 */
+	private static EvenementPassageCabinePalier event;
+
+	public static EvenementPassageCabinePalier setEvent(long d, Etage e) {
+		if (event == null) {
+			event = new EvenementPassageCabinePalier(d, e);
+		} else {
+			event.recycle(d, e);
+		}
+		return event;
+	}
+
+	private void recycle(long d, Etage e) {
+		this.date = d;
+		this.etage = e;
+	}
+
+
     
     private Etage etage;
     
-    public EvenementPassageCabinePalier(long d, Etage e) {
+    private EvenementPassageCabinePalier(long d, Etage e) {
     	super(d);
     	etage = e;
     }
@@ -35,7 +56,7 @@ public class EvenementPassageCabinePalier extends Evenement {
 				}
 			}
 		} else {
-			echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
+			echeancier.ajouter(EvenementPassageCabinePalier.setEvent(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
 		}
 	}
 
@@ -48,7 +69,7 @@ public class EvenementPassageCabinePalier extends Evenement {
 			}
 		}
 		if (!jeDoisOuvrir && etage != immeuble.etageLePlusBas() && etage != immeuble.etageLePlusHaut()) {
-			echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
+			echeancier.ajouter(EvenementPassageCabinePalier.setEvent(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
 		} else {
 			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
 		}
