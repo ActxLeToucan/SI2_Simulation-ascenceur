@@ -42,12 +42,12 @@ public class EvenementArriveePassagerPalier extends Evenement {
 				}
 		    }
 		} else {
-			if (c.porteOuverte && !c.contientDesPassagers() && !(echeancier.getNextEvent() instanceof EvenementFermeturePorteCabine)) {
+			if (c.porteOuverte && !c.contientDesPassagers() && c.intention() == '-') {
 				echeancier.ajouter(EvenementFermeturePorteCabine.setEvent(date + tempsPourOuvrirOuFermerLesPortes));
 			}
 			echeancier.ajouter(new EvenementPietonArrivePalier(date + delaiDePatienceAvantSportif, p.etageDepart(), p));
 			immeuble.etage(etage.numero()).ajouter(p);
-			if (!c.contientDesPassagers()) c.changerIntention(c.calculerIntention(immeuble));
+			if (c.intention() == '-') c.changerIntention(c.calculerIntention(immeuble));
 		}
 
 		date += etage.arriveeSuivante();
