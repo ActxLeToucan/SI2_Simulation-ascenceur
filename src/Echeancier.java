@@ -60,9 +60,7 @@ public class Echeancier extends Global {
 		    Evenement e = listeEvenements.get(index);
 		    if(e instanceof EvenementFermeturePorteCabine){
 				listeEvenements.remove(index);
-				EvenementFermeturePorteCabine eventFPC = (EvenementFermeturePorteCabine) e;
-				eventFPC.setDate(e.date + tempsPourOuvrirOuFermerLesPortes);
-				ajouter(eventFPC);
+				ajouter(EvenementFermeturePorteCabine.setEvent(e.date + tempsPourOuvrirOuFermerLesPortes));
 				return;
 		    }
 		    index++;
