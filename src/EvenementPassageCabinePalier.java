@@ -26,23 +26,31 @@ public class EvenementPassageCabinePalier extends Evenement {
 			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
 		} else if (etage.aDesPassagers()) {
 			if (c.contientDesPassagers() && modeParfait) {
-				boolean jeDoisOuvrir = false;
-				for (Passager pass : etage.getPassagers()) {
-					if (pass.sens() == c.intention()) {
-						jeDoisOuvrir = true;
-						break;
-					}
-				}
-				if (jeDoisOuvrir) {
-					echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
-				} else {
-					echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
-				}
+				modeParfait_ouvertureOuMouvementCabine(immeuble, echeancier, c);
 			} else {
-				echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+				if (modeParfait && (immeuble.passagerEnDessous(etage) || immeuble.passagerAuDessus(etage))) {
+					modeParfait_ouvertureOuMouvementCabine(immeuble, echeancier, c);
+				} else {
+					echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
+				}
 			}
 		} else {
 			echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
+		}
+	}
+
+	private void modeParfait_ouvertureOuMouvementCabine(Immeuble immeuble, Echeancier echeancier, Cabine c) {
+		boolean jeDoisOuvrir = false;
+		for (Passager pass : etage.getPassagers()) {
+			if (pass.sens() == c.intention()) {
+				jeDoisOuvrir = true;
+				break;
+			}
+		}
+		if (!jeDoisOuvrir && etage != immeuble.etageLePlusBas() && etage != immeuble.etageLePlusHaut()) {
+			echeancier.ajouter(new EvenementPassageCabinePalier(date + tempsPourBougerLaCabineDUnEtage, immeuble.etage(c.intention() == '^' ? c.etage.numero()+1 : c.etage.numero()-1)));
+		} else {
+			echeancier.ajouter(new EvenementOuverturePorteCabine(date + tempsPourOuvrirOuFermerLesPortes));
 		}
 	}
 }
