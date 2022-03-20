@@ -91,8 +91,4 @@ public class Echeancier extends Global {
 			index++;
 		}
 	}
-
-	public Evenement getNextEvent() {
-		return listeEvenements.getFirst();
-	}
 }
