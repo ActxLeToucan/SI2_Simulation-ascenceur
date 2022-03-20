@@ -34,7 +34,7 @@ public class Main extends Global {
 				    return;
 				} else if (reponse.equals("s")) { // Stop / Secret
 				    echeancier.supprimeAPPs();
-				};
+				}
 				loop = parseInt(reponse);
             } else {
                 loop--;

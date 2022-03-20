@@ -13,7 +13,7 @@ public abstract class Evenement extends Global {
     public abstract void traiter(Immeuble immeuble, Echeancier echeancier);
     
     public void affiche(StringBuilder buffer, Immeuble immeuble) {
-        buffer.append("[" + date + ",");
+        buffer.append("[").append(date).append(",");
         this.afficheDetails(buffer,immeuble);
         buffer.append("]");
     }

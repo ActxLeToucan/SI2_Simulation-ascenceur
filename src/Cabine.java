@@ -34,7 +34,7 @@ public class Cabine extends Global {
 		    buffer.append(' ');
 		}
 		assert (intention == '-') || (intention == 'v') || (intention == '^');
-		buffer.append("\nIntention de la cabine: " + intention);
+		buffer.append("\nIntention de la cabine: ").append(intention);
     }
 
     /* Pour savoir si le passager p est bien dans la Cabine.

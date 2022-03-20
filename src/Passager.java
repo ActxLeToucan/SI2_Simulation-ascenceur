@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Passager {
     /* Dans cette classe, vous pouvez ajouter/enlever/modifier/corriger des méthodes, mais vous ne
        pouvez pas ajouter des attributs (variables d'instance).
