@@ -20,8 +20,9 @@ public class EvenementPietonArrivePalier extends Evenement {
 
         if (etage == passager.etageDestination()) return;
         etage.ajouterPieton(passager);
-        Etage nextEtage = this.etage.getImmeuble().etage(passager.sens() == '^' ? etage.numero()+1 : etage.numero()-1);
-        echeancier.ajouter(new EvenementPietonArrivePalier(date + tempsPourMonterOuDescendreUnEtageAPieds, nextEtage, passager));
+        this.etage = this.etage.getImmeuble().etage(passager.sens() == '^' ? etage.numero()+1 : etage.numero()-1);
+        this.date += tempsPourMonterOuDescendreUnEtageAPieds;
+        echeancier.ajouter(this);
     }
 
     public EvenementPietonArrivePalier(long d, Etage edd, Passager pa) {
